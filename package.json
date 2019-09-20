@@ -4,7 +4,7 @@
   "description": "Demo of Node.js",
   "main": "./src/app.js",
   "scripts": {
-    "start":"node ./src/app.js",
+    "start": "node ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/dieterdebou/web_server/issues"
   },
-  "homepage": "https://github.com/dieterdebou/web_server#readme"
+  "homepage": "https://github.com/dieterdebou/web_server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
